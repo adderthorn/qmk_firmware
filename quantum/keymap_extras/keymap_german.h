@@ -1,15 +1,66 @@
+/* Copyright 2015-2016 Matthias Schmidtt
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
 #ifndef KEYMAP_GERMAN
 #define KEYMAP_GERMAN
 
-#include "keymap_common.h"
-
-// Alt gr
-#define ALGR(kc) kc | 0x1400
-#define DE_ALGR KC_RALT
+#include "keymap.h"
 
 // normal characters
 #define DE_Z KC_Y
 #define DE_Y KC_Z
+
+#define DE_A KC_A
+#define DE_B KC_B
+#define DE_C KC_C
+#define DE_D KC_D
+#define DE_E KC_E
+#define DE_F KC_F
+#define DE_G KC_G
+#define DE_H KC_H
+#define DE_I KC_I
+#define DE_J KC_J
+#define DE_K KC_K
+#define DE_L KC_L
+#define DE_M KC_M
+#define DE_N KC_N
+#define DE_O KC_O
+#define DE_P KC_P
+#define DE_Q KC_Q
+#define DE_R KC_R
+#define DE_S KC_S
+#define DE_T KC_T
+#define DE_U KC_U
+#define DE_V KC_V
+#define DE_W KC_W
+#define DE_X KC_X
+
+#define DE_0 KC_0
+#define DE_1 KC_1
+#define DE_2 KC_2
+#define DE_3 KC_3
+#define DE_4 KC_4
+#define DE_5 KC_5
+#define DE_6 KC_6
+#define DE_7 KC_7
+#define DE_8 KC_8
+#define DE_9 KC_9
+
+#define DE_DOT KC_DOT
+#define DE_COMM KC_COMM
 
 #define DE_SS KC_MINS
 #define DE_AE KC_QUOT
